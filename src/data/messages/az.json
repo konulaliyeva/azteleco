@@ -1,0 +1,229 @@
+{
+  "HomePage": {
+    "title": {
+      "main": "İnnovativ həllər",
+      "sub1": "dayanıqlı ",
+      "sub2": "nəticələr"
+    },
+    "description": "Telekommunikasiya, İT, tikinti və konsultasiya sahələrində qabaqcıl həllər təqdim edirik. Bizimlə gələcəyin infrastrukturu bu gündən qurulur",
+    "contactUs": "Bizə yazın",
+    "about": "Haqqımızda",
+    "news": "Xəbərlər",
+    "lookAtAll": "Hamısına bax",
+    "seeMore": "Ətraflı bax",
+    "navigation": {
+      "about": "Haqqımızda",
+      "services": "Xidmətlər",
+      "partners": "Tərəfdaşlar",
+      "news": "Xəbərlər",
+      "career": "Karyera",
+      "contact": "Əlaqə"
+    },
+    "whoWeAre": {
+      "title": "Biz Kimik?",
+      "description": "Azərbaycanın müxtəlif sahələrində fəaliyyət göstərən, sürətlə inkişaf edən və davamlı dəyər yaradan bir qrup şirkətdir. Telekommunikasiya infrastrukturunun qurulması, informasiya texnologiyaları, tikinti, maliyyə və konsaltinq kimi müxtəlif sahələrdə xidmətlər göstəririk.Qlobal trendləri izləyərək, qabaqcıl texnologiyaları yerli bazara uyğunlaşdırır, həm dövlət, həm də özəl sektora praktik, etibarlı və innovativ həllər təqdim edirik",
+      "mission": "Missiyamız",
+      "missionDetail": "Xidmət göstərdiyimiz tərəfdaş şirkətlərin effektivliyini və səmərəliliyini artırmaqla yanaşı, onların fəaliyyətində şəffaflığı təmin etməyə töhfə vermək. Biz inanırıq ki, rəqəmsallaşma və düzgün idarəetmə gələcəyin açarıdır. Bu yanaşma ilə AzTelco Group bütün tərəfdaşlarına dəyər yaradan sistemli, etik və texnoloji yönümlü xidmətlər təqdim edir",
+      "vision": "Vizyonumuz",
+      "visionDetail": "Azərbaycan və regionda texnoloji infrastrukturun inkişafına liderlik edən, beynəlxalq standartlara cavab verən və yeniliyi təşviq edən qabaqcıl şirkət olmaq. Vizyonumuz, daim dəyişən qlobal trendlərlə ayaqlaşaraq, tərəfdaşlarımız üçün etibarlı və dayanıqlı dəyər yaratmaqdır"
+    },
+    "ourServices": {
+      "servicesTitle": "Xidmətlərimiz",
+      "servicesDescription": "Aztelco Group, müxtəlif sahələr üzrə innovativ xidmətlər göstərir. Hər bir layihəyə strateji və peşəkar yanaşma tətbiq edirik",
+      "telecommunicationServices": "Telekommunikasiya İnfrastrukturunun Qurulması və İstismarı",
+      "telecommunicationServicesDetail1": "Telekommunikasiya xətlərinin layihələndirilməsi və çəkilişi",
+      "telecommunicationServicesDetail2": "Data baza stansiyalarının tikintisi və istismarı",
+      "telecommunicationServicesDetail3": "Fiber-optik rabitə şəbəkələrinin qurulması",
+      "telecommunicationServicesDetail4": "Internet üzərindən Televiziya yayımı xidməti",
+      "digitalServices": "Rəqəmsal Texnologiyalar və İT Həllər",
+      "digitalServicesDetail1": "İT avadanlıqlarının lisenziyalanması, proqram təminatı satışı və quraşdırılması",
+      "digitalServicesDetail2": "Rəqəmsal reklam platformasının təşkili və idarə edilməsi",
+      "constructionServicesDetail": "Aztelco Group infrastruktur layihələrinin planlaşdırılması, idarə olunması və icrası sahəsində geniş təcrübəyə malikdir. Dəmir yolu və digər strateji tikinti layihələrini beynəlxalq standartlara uyğun şəkildə reallaşdırırıq. Tikintidə keyfiyyət və davamlılıq bizim əsas hədəflərimizdəndir.",
+      "financeServices": "Maliyyə və idarəetmə xidmətləri",
+      "financeServicesDetail": "Bizneslərin dayanıqlı inkişafını dəstəkləyən maliyyə və idarəetmə xidmətləri təqdim edirik. Büdcələmə, maliyyə planlaması, analitik hesabatlar və nəzarət mexanizmləri ilə müəssisələrə əməliyyat səmərəliliyini artırmağa kömək edirik",
+      "ITsolutionsServices": "İnformasiya texnologiyaları üzrə həllər",
+      "ITsolutionsServicesDetail1": "İT strategiyasının hazırlanması və rəqəmsal transformasiyanın tətbiqi",
+      "ITsolutionsServicesDetail2": "ERP sistemlərinin seçimi, tətbiqi və idarə olunması",
+      "ITsolutionsServicesDetail3": "Kiber təhlükəsizlik və məlumatların mühafizəsi üzrə həllər",
+      "consultingServices": "Konsaltinq və Dəstək Xidmətləri",
+      "consultingServicesDetail1": "Maliyyə və mühasibatlıq xidmətlərinin göstərilməsi",
+      "consultingServicesDetail2": "Audit xidməti və risklərin idarə olunması",
+      "consultingServicesDetail3": "İnsan resursları üzrə strateji yanaşmalar və əməliyyat dəstəyi"
+    }
+  },
+  "AboutPage": {
+    "title": "Haqqımızda"
+  },
+  "ServicesPage": {
+    "title": "Xidmətlər",
+    "description": "Sem lacus, erat venenatis, vestibulum gravida dolor tellu"
+  },
+  "PartnersPage": {
+    "title": "Tərəfdaşlar"
+  },
+  "CareersPage": {
+    "title": "Karyera",
+    "jobDescription":"İş təsviri",
+    "responsibilities":"Tələblər",
+    "description": "Sem lacus, erat venenatis, vestibulum gravida dolor tellu",
+    "applyForVacancy": "Vakansiyaya müraciət",
+    "apply": "Müraciət et",
+    "otherVacancies": "Digər vakansiyalar",
+    "name": " Adınız",
+    "surname": "Soyadınız",
+    "email": "Email",
+    "phoneNumber": "Telefon nömrəniz",
+    "uploadCV": "CV-nizi əlavə edin",
+    "fileInfo": "Max. 3 mb, format PDF, DOCX",
+    "share": "Paylaş",
+    "copyLink": "Linki kopyala"
+  },
+  "Vacancies": {
+    "1":{
+      "title": "Texniki dəstək mütəxəssisi",
+      "category": "IT",
+      "location":"Bakı, Azərbaycan",
+      "locType":"On-site",
+      "employmentType":"Full-time",
+      "date":"20 May 2025"
+    },
+    "2":{
+
+      "title": "1C Developer (Senior)",
+      "category": "IT",
+      "location":"Bakı, Azərbaycan",
+      "locType":"On-site",
+      "employmentType":"Full-time",
+       "date":"20 May 2025"
+
+
+    },
+    "3":{
+      "title": "Junior SMM Specialist",
+      "category": "Marketing",
+      "location":"Bakı, Azərbaycan",
+      "locType":"On-site",
+      "employmentType":"Full-time",
+      "date":"20 May 2025"
+    }
+  },
+  "CareersMockData1": {
+    "vacancyTitle": "Texniki dəstək mütəxəssisi",
+    "vacancyDesc": "",
+    "vacancyDetail1": "Ali və ya orta texniki təhsil (İT, Kompüter mühəndisliyi və ya əlaqədar sahə üzrə;",
+    "vacancyDetail2": "Şəbəkə əsaslarını bilmək (TCP/IP, LAN/WAN, DHCP, DNS, NAT, VLAN və s.);",
+    "vacancyDetail3": "Ən azından aşağıdakı texnologiyalar üzrə ilkin anlayış",
+    "vacancyDetail4": "Cisco, MikroTik, Ubiquiti avadanlıqları;",
+    "vacancyDetail5": "Windows və Linux əməliyyat sistemləri üzrə baza biliklər;",
+    "vacancyDetail6": "Əməliyyat sistemlərində şəbəkə konfiqurasiyası və nasazlıqların araşdırılması üzrə ilkin təcrübə;",
+    "vacancyDetail7": "İT avadanlıqları ilə (router, switch, modem, access point və s.) işləmə bacarığı;",
+    "vacancyDetail8": "Komanda ilə işləmə və problem həll etmə bacarığı;",
+    "vacancyDetail9": "Texniki sənədlərlə işləmək və hesabat hazırlamaq bacarığı;",
+    "vacancyDetail10": "Azərbaycan dili səlis, texniki səviyyədə ingilis dili arzuolunandır;",
+    "vacancyDetail11": "CCNA və ya oxşar beynəlxalq sertifikatlara malik olmaq üstünlükdür (amma tələb olunmur)",
+    "responsibilities1": "Şirkət daxilindəki lokal şəbəkənin fasiləsiz işləməsini təmin etmək;",
+    "responsibilities2": "Nasazlıqların diaqnostikası və ilkin texniki dəstəyin göstərilməsi;",
+    "responsibilities3": "Yeni istifadəçilərin şəbəkəyə qoşulması və konfiqurasiya işləri;",
+    "responsibilities4": "Şəbəkə avadanlıqlarının monitorinqi və idarə olunması;Cisco, MikroTik, Ubiquiti avadanlıqları;",
+    "responsibilities5": "Texniki sənədlərin hazırlanması və qeydiyyatın aparılması;",
+    "responsibilities6": "İT komandası ilə birlikdə digər layihələrdə iştirak.",
+      "location":"Bakı, Azərbaycan",
+      "locType":"On-site",
+      "employmentType":"Full-time",
+      "date":"20 May 2025"
+  },
+  "CareersMockData2": {
+    "vacancyTitle": "1C Developer (Senior)",
+    "vacancyDesc": "1 əməkdaş, ERP layihəsinin inkişaf etdirilməsi və mövcud 1C modullarının təkmilləşdirilməsi üçün",
+    "vacancyDetail1": "Ali təhsil (İnformasiya Texnologiyaları, Riyaziyyat, İqtisadiyyat və ya əlaqədar sahə üzrə);",
+    "vacancyDetail2": "1C:Enterprise 8.3 platformasında minimum 3-5 il iş təcrübəsi;",
+    "vacancyDetail3": "Mühasibatlıq, anbar, ticarət, əməkhaqqı (УПП, ERP, Бухгалтерия, ЗУП və s.) modullarında dərin bilik və təcrübə;",
+    "vacancyDetail4": "1C konfiqurasiyaların modifikasiyası və yenidən yazılması bacarığı;",
+    "vacancyDetail5": "Məlumat bazalarının strukturunu anlamaq və SQL sorğularla işləmək bacarığı (MSSQL, PostgreSQL və s.);",
+    "vacancyDetail6": "Tələblərin toplanması, texniki tapşırıqların hazırlanması və tətbiqi bacarığı;",
+    "vacancyDetail7": "REST və SOAP API-lərlə inteqrasiya təcrübəsi;",
+    "vacancyDetail8": "Komanda idarəetmə və mentorluq bacarığı;",
+    "vacancyDetail9": "Git və ya digər versiya nəzarət sistemləri ilə işləmə təcrübəsi;",
+    "vacancyDetail10": "Azərbaycan dili səlis, rus və texniki ingilis dili bilikləri üstünlükdür;",
+    "vacancyDetail11": "Sertifikatlar (məsələn, \"1С:Профессионал\", \"1С:Специалист\") üstünlükdür;",
+    "responsibilities1": "Mövcud 1C sistemlərinin dəstəklənməsi və təkmilləşdirilməsi;",
+    "responsibilities2": "Yeni modulların layihələndirilməsi, hazırlanması və tətbiqi;",
+    "responsibilities3": "İstifadəçilərin tələblərinə əsasən texniki tapşırıqların hazırlanması və həyata keçirilməsi;",
+    "responsibilities4": "Müxtəlif departamentlərlə koordinasiya və ehtiyacların müəyyən olunması;",
+    "responsibilities5": "1C sistemlərinin digər proqram təminatı ilə inteqrasiyası (məsələn: CRM, bank sistemləri, veb xidmətlər və s.);",
+    "responsibilities6": "Məlumatların miqrasiyası və sistemlərin yenilənməsi zamanı dəstək;",
+    "responsibilities7": "Gənc developer-lərə mentorluq və texniki dəstək;",
+    "responsibilities8": "Texniki sənədlərin hazırlanması və sistemin dokumentasiyasının aparılması.",
+      "location":"Bakı, Azərbaycan",
+      "locType":"On-site",
+      "employmentType":"Full-time",
+      "date":"20 May 2025"
+  },
+  "CareersMockData3": {
+    "vacancyTitle": "Junior SMM Specialist",
+    "vacancyDesc": "",
+    "vacancyDetail1": "Ali və ya orta ixtisas təhsili (Marketinq, PR, Jurnalistika, İT və ya əlaqəli sahələr üzrə);",
+    "vacancyDetail2": "Sosial media platformaları ilə işləmə bacarığı (Facebook, Instagram, LinkedIn, TikTok və s.);",
+    "vacancyDetail3": "WordPress və ya digər CMS sistemlərində sadə dəyişikliklər və kontent yükləmələri bacarığı;",
+    "vacancyDetail4": "Kreativ düşüncə və vizual estetika anlayışı;",
+    "vacancyDetail5": "Azərbaycan dilində düzgün yazı və ifadə bacarığı, rus və ingilis dili bilikləri üstünlükdür;",
+    "vacancyDetail6": "Canva, Photoshop və ya digər sadə dizayn alətlərində işləmə bacarığı arzuolunandır;",
+    "vacancyDetail7": "İşləri vaxtında və sistemli şəkildə yerinə yetirmə bacarığı;",
+    "vacancyDetail8": "Komanda ilə işləmək və çoxsaylı tapşırıqları eyni anda idarə etmək bacarığı;",
+    "responsibilities1": "Qrup şirkətlərinə məxsus veb saytların kontentlərinin yenilənməsi və texniki dəstək komandası ilə əlaqələndirmə;",
+    "responsibilities2": "Həmin şirkətlərin sosial media hesabları üçün həftəlik/aylıq kontent planlarının hazırlanmasında iştirak;",
+    "responsibilities3": "Postların vaxtında paylaşılması, planlaşdırılması və izləyicilərlə əlaqə saxlanması (DM, şərhlər və s.);",
+    "responsibilities4": "Sadə dizayn işlərinin hazırlanması (story, post şablonları və s.);",
+    "responsibilities5": "Sosial media analitikası və veb sayt trafiği üzrə sadə hesabatların hazırlanması;",
+    "responsibilities6": "Kontent tərcüməsi, redaktəsi və SEO baxımından uyğunlaşdırılması;",
+    "responsibilities7": "Tədbir, kampaniya və yeniliklərlə bağlı operativ postların hazırlanması və yayımı;",
+    "responsibilities8": "Digər marketinq və dizayn komandası ilə sıx əməkdaşlıq.",
+      "location":"Bakı, Azərbaycan",
+      "locType":"On-site",
+      "employmentType":"Full-time",
+      "date":"20 May 2025"
+  },
+  "NewsPage": {
+    "title": "Xəbərlər",
+    "lookAtAll": "Hamısına bax",
+    "seeMore": "Ətraflı bax",
+    "nextArticle": "Növbəti xəbər",
+    "prevArticle": "Əvvəlki xəbər",
+    "otherNews": "Digər xəbərlər",
+    "share": "Paylaş",
+    "copyLink": "Linki kopyala"
+  },
+  "ContactPage": {
+    "title": "Əlaqə",
+    "description": "Diam ultrices odio ornare sollicitudin habitant viverra ornare. Quis amet cras suspendisse convallis fames.",
+    "email": "Email",
+    "phone": "Telefon",
+    "office": "Ofis",
+    "address": "Bakı, Heydər Əliyev pr. 152, AZ1029, Çinar Plaza",
+    "socialMedia": "Sosial medialarımız",
+    "contactUs": "Bizə yazın",
+    "name": " Adınız, soyadınız",
+    "phoneNumber": "Telefon nömrəniz",
+    "writeYourMessage": "Mesajınızı yazın",
+    "send": "Göndər"
+  },
+  "Footer": {
+    "navigation": {
+      "about": "Haqqımızda",
+      "services": "Xidmətlər",
+      "partners": "Tərəfdaşlar",
+      "news": "Xəbərlər",
+      "career": "Karyera",
+      "contact": "Əlaqə"
+    },
+    "address": "Baki, Xatai pr.34, Luxen Plaza, 15-ci mertebe",
+    "copyright": "Bütün hüquqlar qorunur"
+  },
+  "Pagination": {
+    "prev": "Əvvəlki",
+    "next": "Növbəti"
+  },
+  "Error": {
+    "backToHome":"Əsas səhifəyə keç"
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "HomePage": {
+    "title": {
+      "main": "Innovative solutions",
+      "sub1": "sustainable",
+      "sub2": "results"
+    },
+    "description": "We offer advanced solutions in telecommunications, IT, construction, and consulting. With us, the infrastructure of the future is built today",
+    "contactUs": "Contact us",
+    "about": "About us",
+    "news": "News",
+    "lookAtAll": "View All",
+    "seeMore": "See More",
+    "navigation": {
+      "about": "About us",
+      "services": "Services",
+      "partners": "Partners",
+      "news": "News",
+      "career": "Career",
+      "contact": "Contact"
+    },
+    "whoWeAre": {
+      "title": "Who We Are?",
+      "description": "We are a group of rapidly growing companies operating in various sectors of Azerbaijan and creating lasting value.We provide services in various fields such as telecommunications infrastructure development, information technology, construction, finance, and consulting.By following global trends, we adapt advanced technologies to the local market and offer practical, reliable, and innovative solutions to both the public and private sectors",
+      "mission": "Our Mission",
+      "missionDetail": "Alongside increasing the efficiency and effectiveness of our partner companies, we also contribute to ensuring transparency in their operations.We believe that digitalization and proper management are the keys to the future. With this approach, AzTelco Group offers systematic, ethical, and technology-driven services that create value for all its partner",
+      "vision": "Our Vision",
+      "visionDetail": "To be a leading company in the development of technological infrastructure in Azerbaijan and the region, meeting international standards and promoting innovation. Our vision is to stay aligned with global trends and create reliable, sustainable value for our partners."
+    },
+    "ourServices": {
+      "servicesTitle": "Our Services",
+      "servicesDescription": "Aztelco Group offers innovative services across various fields. We apply strategic and professional approaches to every project",
+      "telecommunicationServices": "Construction and Operation of Telecommunication Infrastructure",
+      "telecommunicationServicesDetail1": "Design and installation of telecommunication lines",
+      "telecommunicationServicesDetail2": "Construction and operation of data base stations",
+      "telecommunicationServicesDetail3": "Deployment of fiber-optic communication networks",
+      "telecommunicationServicesDetail4": "Internet-based television broadcasting service",
+      "digitalServices": "Digital Technologies and IT Solutions",
+      "digitalServicesDetail1": "IT equipment licensing, software sales and installation",
+      "digitalServicesDetail2": "Setup and management of a digital advertising platform",
+      "constructionServicesDetail": "Aztelco Group has extensive experience in planning, managing, and executing infrastructure projects. We implement railway and other strategic construction projects in accordance with international standards. Quality and sustainability in construction are our main goals.",
+      "financeServices": "Financial and Management Services",
+      "financeServicesDetail": "We provide financial and management services that support sustainable business development. Through budgeting, financial planning, analytical reporting, and control mechanisms, we help enterprises improve operational efficiency.",
+      "ITsolutionsServices": "IT Solutions",
+      "ITsolutionsServicesDetail1": "Development of IT strategy and implementation of digital transformation",
+      "ITsolutionsServicesDetail2": "Selection, implementation, and management of ERP systems",
+      "ITsolutionsServicesDetail3": "Cybersecurity and data protection solutions",
+      "consultingServices": "Consulting and Support Services",
+      "consltingServicesDetail": "We provide strategic consulting services for the public and private sectors. Our expert team supports project management, legal and financial analysis, and risk assessment. Our goal is to help our partners make better decisions.",
+      "consultingServicesDetail1": "Provision of financial and accounting services",
+      "consultingServicesDetail2": "Audit services and risk management",
+      "consultingServicesDetail3": "Strategic approaches and operational support in human resources"
+    }
+  },
+  "AboutPage": {
+    "title": "About Us"
+  },
+  "ServicesPage": {
+    "title": "Services",
+    "description": "Sem lacus, erat venenatis, vestibulum gravida dolor tellu"
+  },
+  "PartnersPage": {
+    "title": "Partners"
+  },
+  "CareersPage": {
+    "title": "Career",
+    "description": "Sem lacus, erat venenatis, vestibulum gravida dolor tellu",
+    "applyForVacancy": "Apply for vacancy",
+    "apply": "Apply",
+    "otherVacancies": "Other vacancies",
+    "name": "Your name",
+    "surname": "Your surname",
+    "email": "Email",
+    "phoneNumber": "Your phone number",
+    "uploadCV": "Upload your CV",
+    "fileInfo": "Max. 3 MB, format PDF, DOCX",
+    "share": "Share",
+    "copyLink": "Copy link",
+    "jobDescription": "Job Description",
+    "responsibilities": "Responsibilities"
+  },
+"Vacancies": {
+  "1": {
+    "title": "Technical Support Specialist",
+    "category": "IT",
+    "location": "Baku, Azerbaijan",
+    "locType": "On-site",
+    "employmentType": "Full-time",
+    "date": "20 May 2025"
+  },
+  "2": {
+    "title": "1C Developer (Senior)",
+    "category": "IT",
+    "location": "Baku, Azerbaijan",
+    "locType": "On-site",
+    "employmentType": "Full-time",
+    "date": "20 May 2025"
+  },
+  "3": {
+    "title": "Junior SMM Specialist",
+    "category": "Marketing",
+    "location": "Baku, Azerbaijan",
+    "locType": "On-site",
+    "employmentType": "Full-time",
+    "date": "20 May 2025"
+  }
+},
+
+  "CareersMockData1":{
+  "vacancyTitle": "Technical Support Specialist",
+  "vacancyDesc": "",
+  "vacancyDetail1": "Higher or secondary technical education (IT, Computer Engineering, or related fields);",
+  "vacancyDetail2": "Knowledge of network fundamentals (TCP/IP, LAN/WAN, DHCP, DNS, NAT, VLAN, etc.);",
+  "vacancyDetail3": "Basic understanding of the following technologies:",
+  "vacancyDetail4": "Cisco, MikroTik, Ubiquiti equipment;",
+  "vacancyDetail5": "Basic knowledge of Windows and Linux operating systems;",
+  "vacancyDetail6": "Initial experience in network configuration and troubleshooting in operating systems;",
+  "vacancyDetail7": "Ability to work with IT equipment (router, switch, modem, access point, etc.);",
+  "vacancyDetail8": "Ability to work in a team and solve problems;",
+  "vacancyDetail9": "Ability to work with technical documents and prepare reports;",
+  "vacancyDetail10": "Fluent in Azerbaijani, technical level of English is desirable;",
+  "vacancyDetail11": "Possession of CCNA or similar international certificates is an advantage (but not required);",
+  "responsibilities1": "Ensure uninterrupted operation of the local network within the company;",
+  "responsibilities2": "Diagnose malfunctions and provide initial technical support;",
+  "responsibilities3": "Connect new users to the network and perform configuration tasks;",
+  "responsibilities4": "Monitor and manage network equipment; Cisco, MikroTik, Ubiquiti equipment;",
+  "responsibilities5": "Prepare technical documents and maintain records;",
+  "responsibilities6": "Participate in other projects together with the IT team.",
+      "location": "Baku, Azerbaijan",
+    "locType": "On-site",
+    "employmentType": "Full-time",
+    "date": "20 May 2025"
+  },
+  "CareersMockData2":{
+  "vacancyTitle": "1C Developer (Senior)",
+  "vacancyDesc": "1 employee, for the development of the ERP project and improvement of existing 1C modules",
+  "vacancyDetail1": "Higher education (Information Technology, Mathematics, Economics, or related fields);",
+  "vacancyDetail2": "Minimum 3-5 years of experience on the 1C:Enterprise 8.3 platform;",
+  "vacancyDetail3": "Deep knowledge and experience in modules such as accounting, warehouse, trade, payroll (УПП, ERP, Бухгалтерия, ЗУП, etc.);",
+  "vacancyDetail4": "Ability to modify and rewrite 1C configurations;",
+  "vacancyDetail5": "Understanding of database structures and ability to work with SQL queries (MSSQL, PostgreSQL, etc.);",
+  "vacancyDetail6": "Ability to gather requirements, prepare technical specifications, and implement them;",
+  "vacancyDetail7": "Experience integrating with REST and SOAP APIs;",
+  "vacancyDetail8": "Team management and mentoring skills;",
+  "vacancyDetail9": "Experience working with Git or other version control systems;",
+  "vacancyDetail10": "Fluent in Azerbaijani, knowledge of Russian and technical English is an advantage;",
+  "vacancyDetail11": "Certificates (e.g., \"1С:Professional\", \"1С:Specialist\") are an advantage;",
+  "responsibilities1": "Support and improve existing 1C systems;",
+  "responsibilities2": "Design, develop, and implement new modules;",
+  "responsibilities3": "Prepare and implement technical specifications based on user requirements;",
+  "responsibilities4": "Coordinate with various departments to identify needs;",
+  "responsibilities5": "Integrate 1C systems with other software (e.g., CRM, banking systems, web services, etc.);",
+  "responsibilities6": "Support during data migration and system updates;",
+  "responsibilities7": "Mentor and provide technical support to junior developers;",
+  "responsibilities8": "Prepare technical documentation and maintain system documentation.",
+      "location": "Baku, Azerbaijan",
+    "locType": "On-site",
+    "employmentType": "Full-time",
+    "date": "20 May 2025"
+
+  },
+  "CareersMockData3":
+  {
+  "vacancyTitle": "Junior SMM Specialist",
+  "vacancyDesc": "1 employee to support the team in social media and web content management",
+  "vacancyDetail1": "Higher or secondary specialized education (Marketing, PR, Journalism, IT, or related fields);",
+  "vacancyDetail2": "Ability to work with social media platforms (Facebook, Instagram, LinkedIn, TikTok, etc.);",
+  "vacancyDetail3": "Ability to make simple changes and upload content using WordPress or other CMS systems;",
+  "vacancyDetail4": "Creative thinking and a sense of visual aesthetics;",
+  "vacancyDetail5": "Proper writing and expression skills in Azerbaijani; knowledge of Russian and English is an advantage;",
+  "vacancyDetail6": "Ability to use simple design tools such as Canva, Photoshop, etc. is desirable;",
+  "vacancyDetail7": "Ability to perform tasks on time and in a systematic manner;",
+  "vacancyDetail8": "Ability to work in a team and manage multiple tasks simultaneously;",
+  "responsibilities1": "Updating content on websites of group companies and coordinating with the technical support team;",
+  "responsibilities2": "Participating in the preparation of weekly/monthly content plans for social media accounts;",
+  "responsibilities3": "Timely posting, scheduling content, and engaging with followers (DMs, comments, etc.);",
+  "responsibilities4": "Creating simple designs (stories, post templates, etc.);",
+  "responsibilities5": "Preparing simple reports on social media analytics and website traffic;",
+  "responsibilities6": "Translating, editing, and optimizing content for SEO;",
+  "responsibilities7": "Creating and sharing timely posts related to events, campaigns, and updates;",
+  "responsibilities8": "Close collaboration with other marketing and design teams.",
+      "location": "Baku, Azerbaijan",
+    "locType": "On-site",
+    "employmentType": "Full-time",
+    "date": "20 May 2025"
+},
+
+  "NewsPage": {
+    "title": "News",
+    "lookAtAll": "View All",
+    "seeMore": "See More",
+    "nextArticle": "Next article",
+    "prevArticle": "Previous article",
+    "otherNews": "Other news",
+    "share": "Share",
+    "copyLink": "Copy link"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "Diam ultrices odio ornare sollicitudin habitant viverra ornare. Quis amet cras suspendisse convallis fames.",
+    "email": "Email",
+    "phone": "Phone",
+    "office": "Office",
+    "address": "Baku, Khatai Ave. 34, Luxen Plaza, 15th floor",
+    "socialMedia": "Our Social Media",
+    "contactUs": "Contact Us",
+    "name": "Your Name and Surname",
+    "phoneNumber": "Your Phone Number",
+    "writeYourMessage": "Write Your Message",
+    "send": "Send"
+  },
+  "Footer": {
+    "navigation": {
+      "about": "About us",
+      "services": "Services",
+      "partners": "Partners",
+      "news": "News",
+      "career": "Career",
+      "contact": "Contact"
+    },
+    "address": "Baku, Khatai Ave. 34, Luxen Plaza, 15th floor",
+    "copyright": "Bütün hüquqlar qorunur"
+  },
+  "Pagination": {
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "Error": {
+    "backToHome": "Go to homepage"
+  }
+}

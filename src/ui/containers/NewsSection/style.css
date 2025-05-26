@@ -1,0 +1,26 @@
+.news-scrollbar {
+  scrollbar-width: auto;
+}
+
+.news-scrollbar::-webkit-scrollbar {
+  height: 8px;
+}
+
+.news-scrollbar::-webkit-scrollbar-track {
+  background: #EAECF0;
+  border-radius: 10px;
+}
+
+.news-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #4B47FF;
+  border-radius: 10px;
+}
+
+
+.news-scrollbar::-webkit-scrollbar-button {
+  all: unset;
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+}

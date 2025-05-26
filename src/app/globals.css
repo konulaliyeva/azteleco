@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Baskerville;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("../data/assets/fonts/baskerville/BaskervilleBI.otf") format("otf");
+}
+@font-face {
+  font-family: BaiJamjuree;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("../data/assets/fonts/bai-jamjuree/BaiJamjuree-Regular.ttf") format("ttf");
+}
+@theme {
+    --font-baskerville: "Baskerville", sans-serif; 
+    --font-bai: "BaiJamjuree", sans-serif;
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+ .baskerville {
+  font-family: "Baskerville";
+ }
+ .font-bai {
+  font-family: BaiJamjuree;
+ }
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  html,
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    color: #202939;
+    font-family: var(--font-bai-inter), sans-serif;
+    
+  }
+
+}
