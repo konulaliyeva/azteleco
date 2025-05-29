@@ -1,6 +1,6 @@
+import { Link } from '@/i18n/routing';
 import { AztelecoSVG, FbSVG, InstaSVG, LogoSVG, TgSVG } from '@public/vectors';
 import { useTranslations } from 'next-intl';
-import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
@@ -8,13 +8,13 @@ const Footer = () => {
   
   const leftLinks = [
     // { label: t("navigation.about"), href: '#' },
-    { label: t("navigation.services"), href: '#' },
-    { label: t("navigation.news"), href: '#' },
+    { label: t("navigation.services"), href: '/services' },
+    { label: t("navigation.news"), href: '/' },
   ];
 
   const rightLinks = [
-    { label: t("navigation.career"), href: '#' },
-    { label: t("navigation.contact"), href: '#' },
+    { label: t("navigation.career"), href: '/careers' },
+    { label: t("navigation.contact"), href: '/contact' },
   ];
 
   const socialLinks = [
@@ -39,7 +39,7 @@ const Footer = () => {
             <ul className="mb-28">
               {leftLinks.map(({ label, href }, idx) => (
                 <li key={idx} className="mb-2 last:mb-0">
-                  <Link href={href} className="text-18px600 font-inter hover:underline">{label}</Link>
+                  <Link href={href as typeof Link.prototype.href} className="text-18px600 font-inter hover:underline">{label}</Link>
                 </li>
               ))}
             </ul>
@@ -52,7 +52,7 @@ const Footer = () => {
           {/* Center Section */}
           <div className="text-center mb-6 md:mb-0">
             <p className="mb-2">
-              <Link href="mailto:info@aztelco.az" className="text-20px500 font-inter opacity-[64%] hover:underline">info@aztelco.az</Link>
+              <Link href={"mailto:info@aztelco.az" as typeof Link.prototype.href} className="text-20px500 font-inter opacity-[64%] hover:underline">info@aztelco.az</Link>
             </p>
             <p className="text-48px700 font-bai my-4">+994 12 345 67 89</p>
             <p className="text-20px500 font-inter opacity-[64%]">{t("address")}</p>
@@ -60,7 +60,7 @@ const Footer = () => {
               {socialLinks.map(({ href, icon }, idx) => (
                 <Link
                   key={idx}
-                  href={href}
+                  href={href as typeof Link.prototype.href }
                   className="flex justify-center items-center border border-[#FFFFFF29] p-4 rounded-full hover:bg-white/10"
                 >
                   {icon}
@@ -74,7 +74,7 @@ const Footer = () => {
             <ul className="text-right mb-36">
               {rightLinks.map(({ label, href }, idx) => (
                 <li key={idx} className="mb-2 last:mb-0">
-                  <Link href={href} className="font-inter text-18px600 hover:underline">{label}</Link>
+                  <Link href={href as typeof Link.prototype.href} className="font-inter text-18px600 hover:underline">{label}</Link>
                   </li>
               ))}
             </ul>
@@ -97,7 +97,7 @@ const Footer = () => {
         {/* Contact Info */}
         <div className="mb-6">
           <Link
-            href="mailto:info@aztelco.az"
+            href={"mailto:info@aztelco.az" as typeof Link.prototype.href}
             className="block text-sm font-inter text-white opacity-[64%] hover:underline mb-2"
           >
             info@aztelco.az
@@ -114,7 +114,7 @@ const Footer = () => {
           <ul className="space-y-2 text-left">
             {[...leftLinks,...rightLinks].map(({ label, href }, idx) => (
               <li key={idx}>
-                <Link href={href} className="text-base font-inter hover:underline">
+                <Link href={href as typeof Link.prototype.href} className="text-base font-inter hover:underline">
                   {label}
                 </Link>
               </li>
@@ -126,7 +126,7 @@ const Footer = () => {
             {socialLinks.map(({ href, icon }, idx) => (
               <Link
                 key={idx}
-                href={href}
+                href={href as typeof Link.prototype.href}
                 className="p-3 border border-[#FFFFFF29] rounded-full hover:bg-white/10"
               >
                 {icon}

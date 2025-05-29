@@ -7,7 +7,7 @@
   font-style: normal;
   font-weight: 200 700;
   font-display: swap;
-  src: url("../data/assets/fonts/baskerville/BaskervilleBI.otf") format("otf");
+  src: url("../data/assets/fonts/baskerville/BaskervilleI.otf") format("otf");
 }
 @font-face {
   font-family: BaiJamjuree;
@@ -29,7 +29,7 @@
     outline: none;
   }
  .baskerville {
-  font-family: "Baskerville";
+  font-family: "Baskerville" !important;
  }
  .font-bai {
   font-family: BaiJamjuree;

@@ -10,7 +10,10 @@ export const routing = defineRouting({
   localeDetection: false,
 
   pathnames: {
-    "/": "/",
+    "/": {
+      az: '/',
+      ru:'/'
+    },
     "/about": {
       az: "/haqqimizda",
       ru: "/o-nas",

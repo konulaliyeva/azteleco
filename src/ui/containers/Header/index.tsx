@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { LogoSVG, OriginalLogoSVG, UpArrowSVG } from "@public/vectors";
 import HeaderWrapper from "./HeaderWrapper";
@@ -6,6 +5,7 @@ import MobileHeader from "./MobileHeader";
 import ChangeLanguage from "@/ui/components/ChangeLanguage"; 
 import DesktopNav from "./DesktopNav";
 import { cn } from "@/core/utils/cn";
+import { Link } from "@/i18n/routing";
 
 const Header = async () => {
       const t = await getTranslations("HomePage");
