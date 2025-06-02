@@ -3,12 +3,13 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: Baskerville;
-  font-style: normal;
-  font-weight: 200 700;
+  font-family: 'Baskerville';
+  font-style: italic;
+  font-weight: normal;
   font-display: swap;
-  src: url("../data/assets/fonts/baskerville/BaskervilleI.otf") format("otf");
+  src: url('../data/assets/fonts/baskerville/BaskervilleI.otf') format('opentype');
 }
+
 @font-face {
   font-family: BaiJamjuree;
   font-style: normal;
@@ -29,7 +30,7 @@
     outline: none;
   }
  .baskerville {
-  font-family: "Baskerville" !important;
+ font-family: 'Baskerville', serif;
  }
  .font-bai {
   font-family: BaiJamjuree;

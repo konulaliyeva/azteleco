@@ -1,4 +1,3 @@
-"use client";
 import {
   CalendarSVG,
   ClockSVG,
@@ -15,9 +14,10 @@ import CareerCard from "@/ui/components/CareerCard";
 import ApplyForVacancyForm from "@/ui/features/ApplyForVacancyForm/ApplyForVacancyForm";
 import { useTranslations } from "next-intl";
 import { CareerItem, VacancyDataModel } from "@/app/[lang]/careers/[slug]/page";
+import CopyButtonComponent from "./ClientComponents";
 
 const CareersDetailPageContainer = ({currentVacancy, careers}:{currentVacancy:VacancyDataModel,careers:CareerItem[]}) => {
-  console.log('currentVacancy', currentVacancy)
+
   const socialMediaIcons = [
     {
       id:1,
@@ -36,13 +36,10 @@ const CareersDetailPageContainer = ({currentVacancy, careers}:{currentVacancy:Va
   const linkToCopy =
     "www.aztelco.az/news/many desktop publishing packages and web page editors";
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText(linkToCopy);
-  };
 
 
   return (
-    <main className="mx-auto px-4 md:px-16 py-8 flex flex-col gap-8">
+    <div className="mx-auto px-4 md:px-16 py-8 flex flex-col gap-8">
       {/* === Left Column (Main Content) === */}
       <div className="flex flex-col desktopMd:flex-row desktopLg:flex-row">
         <div className="flex flex-col gap-y-12 flex-grow">
@@ -123,20 +120,13 @@ const CareersDetailPageContainer = ({currentVacancy, careers}:{currentVacancy:Va
                 value={linkToCopy}
                 className="flex-1 bg-transparent outline-none text-14px500 text-gray-600 truncate pr-4 shrink-0"
               />
-              <Button
-                variant={ButtonVariantsEnum.EMPTY}
-                onClick={handleCopy}
-                className="flex items-center gap-x-1 text-16px600 text-[#0C0C0C] rounded-full"
-              >
-                {t("copyLink")}
-                <CopySVG />
-              </Button>
+              <CopyButtonComponent />
             </div>
           </div>
         </div>
 
         {/* === Right Column (Sidebar) === */}
-        <aside className="bg-white rounded-2xl h-max w-[456px] border p-6 flex flex-col gap-y-8 mt-12 desktopMd:mt-0 desktopLg:mt-0 ">
+        <aside className="bg-white rounded-2xl h-max md:w-[456px] border p-6 flex flex-col gap-y-8 mt-12 desktopMd:mt-0 desktopLg:mt-0 ">
           <h2 className="text-24px600 text-gray-800 font-inter">
             {t("applyForVacancy")}
           </h2>
@@ -166,7 +156,7 @@ const CareersDetailPageContainer = ({currentVacancy, careers}:{currentVacancy:Va
           ))}
         </div>
       </div>
-    </main>
+    </div>
   );
 };
 

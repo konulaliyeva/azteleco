@@ -1,15 +1,15 @@
 "use client";
 import { cn } from "@/core/utils/cn";
-import { usePathname } from "next/navigation";
 import React, { PropsWithChildren, useEffect, useState } from "react";
 import Header from ".";
+import { usePathname } from "@/i18n/navigation";
 
 const HeaderWrapper = ({
   children,
-}: PropsWithChildren & { homePath?: boolean }) => {  
+}: PropsWithChildren & { homePath?: boolean }) => {
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
-  const isHomePage = pathname.split("/").length === 2;
+  const isHomePage = pathname === "/";
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
@@ -39,7 +39,9 @@ const HeaderWrapper = ({
       className={cn(
         "fixed w-full z-50 group duration-500 ease-in-out",
         // Default: home top
-        isHomePage && !scrolled && "lg:bg-transparent lg:text-white lg:shadow-none",
+        isHomePage &&
+          !scrolled &&
+          "lg:bg-transparent lg:text-white lg:shadow-none",
 
         // Scrolled on any page
         scrolled && "bg-white text-black shadow-md",
@@ -49,7 +51,6 @@ const HeaderWrapper = ({
       )}
     >
       {children}
-     
     </div>
   );
 };

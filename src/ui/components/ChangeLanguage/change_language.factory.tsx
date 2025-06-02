@@ -1,8 +1,9 @@
+"use client"
 import { cn } from "@/core/utils/cn";
 import { ChangeLanguageVM } from "./change_language.vm";
 import { ChangeLanguageEnum } from "@/data/enum/change_language.enum";
 import { AZSVG, CheckSVG, DownChevronSVG, GBSVG, RUSVG } from "@public/vectors";
-import { Link } from "@/i18n/routing";
+import { Link } from "@/i18n/navigation";
 
 const ChangeLanguageFactory = () => {
   const {
@@ -13,7 +14,6 @@ const ChangeLanguageFactory = () => {
     locales,
     pathname,
   } = ChangeLanguageVM();
-
 
   const getLangInfo = (lang: string) => {
     return {
@@ -77,7 +77,7 @@ const ChangeLanguageFactory = () => {
                 <Link
                   key={i}
                   locale={locales[i]}
-                  href={pathname as typeof Link.prototype.href}
+                  href={pathname.path as typeof Link.prototype.href}
                   className={cn(
                     "py-2 px-5 block text-16px500 font-inter",
                     locale === lang && "text-brand-600"
@@ -123,7 +123,7 @@ const ChangeLanguageFactory = () => {
                 <Link
                   key={i}
                   locale={locales[i]}
-                  href={pathname as typeof Link.prototype.href}
+                  href={pathname.path as typeof Link.prototype.href}
                   className={cn(
                     "flex justify-between py-2 px-5 text-16px500 font-inter",
                     locale === lang && "text-brand-600"

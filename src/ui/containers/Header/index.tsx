@@ -2,28 +2,38 @@ import { getTranslations } from "next-intl/server";
 import { LogoSVG, OriginalLogoSVG, UpArrowSVG } from "@public/vectors";
 import HeaderWrapper from "./HeaderWrapper";
 import MobileHeader from "./MobileHeader";
-import ChangeLanguage from "@/ui/components/ChangeLanguage"; 
+import ChangeLanguage from "@/ui/components/ChangeLanguage";
 import DesktopNav from "./DesktopNav";
 import { cn } from "@/core/utils/cn";
-import { Link } from "@/i18n/routing";
+import { Link } from "@/i18n/navigation";
+import { getLocale } from "next-intl/server";
 
 const Header = async () => {
-      const t = await getTranslations("HomePage");
+  const t = await getTranslations("HomePage");
+  const locale = await getLocale();
 
   return (
     <HeaderWrapper>
       <div className="flex justify-between items-center p-4 px-6 lg:px-16 relative">
-        <Link href="/" className="group-data-[submitted=true]:hidden group-data-[custom=true]:hidden">
+        <Link
+          href="/"
+          locale={locale}
+          className="group-data-[submitted=true]:hidden group-data-[custom=true]:hidden"
+        >
           <LogoSVG />
         </Link>
-        <Link href="/" className="hidden group-data-[submitted=true]:block group-data-[custom=true]:block">
+        <Link
+          href="/"
+          locale={locale}
+          className="hidden group-data-[submitted=true]:block group-data-[custom=true]:block"
+        >
           <OriginalLogoSVG />
         </Link>
 
         <div className="hidden lg:flex items-center space-x-6">
-          {/* Desktop Nav (client-side) */} 
+          {/* Desktop Nav (client-side) */}
           <DesktopNav />
-          
+
           {/* Change Language (server-side) */}
           <ChangeLanguage />
 
@@ -43,7 +53,6 @@ const Header = async () => {
               </div>
             </div>
           </Link>
-
         </div>
 
         {/* Mobile Header (client-side) */}

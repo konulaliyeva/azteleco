@@ -12,7 +12,7 @@ import {
 import { cn } from "@/core/utils/cn";
 import { useTranslations } from "next-intl";
 import { ChangeLanguageEnum } from "@/data/enum/change_language.enum";
-import { Link } from "@/i18n/routing";
+import { Link } from "@/i18n/navigation";
 
 const MobileHeader = () => {
   const [isOpen, setIsOpen] = useState(false);

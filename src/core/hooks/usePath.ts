@@ -1,5 +1,5 @@
 "use client";
-import { usePathname } from "@/i18n/routing";
+import { usePathname } from "@/i18n/navigation";
 import { useParams } from "next/navigation";
 
 function generatePath(

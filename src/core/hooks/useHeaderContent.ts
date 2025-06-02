@@ -3,10 +3,10 @@ import { useLayoutEffect } from "react";
 import { useAppDispatch } from "./useRedux";
 import { HeaderSliceType, setHeaderContent } from "../store/root/header_slice";
 
-export function useHeaderContent({ title, breadcrumbs, deps }: HeaderSliceType) {
+export function useHeaderContent({ title, deps }: HeaderSliceType) {
     const dispatch = useAppDispatch();
 
     useLayoutEffect(() => {
-        dispatch(setHeaderContent({ title, breadcrumbs }));
-    }, [deps, title, breadcrumbs,dispatch]);
+        dispatch(setHeaderContent({ title }));
+    }, [deps, title,dispatch]);
 }

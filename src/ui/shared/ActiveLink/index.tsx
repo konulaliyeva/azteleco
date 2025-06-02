@@ -3,7 +3,7 @@ import { cn } from "@/core/utils/cn";
 import { usePathname } from "next/navigation";
 import { useLocale } from "next-intl";
 import { ActiveLinkType } from "./active_link.type";
-import { Link } from "@/i18n/routing";
+import { Link } from "@/i18n/navigation";
 
 const ActiveLink = ({ href, className, activeClassName, children }: ActiveLinkType) => {
     const pathname = usePathname();

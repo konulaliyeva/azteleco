@@ -1,5 +1,4 @@
 import "server-only";
-import { LocaleType } from "../lib/i18n.config";
 
 const dictionaries = {
   az: () =>
@@ -10,5 +9,5 @@ const dictionaries = {
     import("../../data/dictionaries/ru.json").then((module) => module.default),
 };
 
-export const getDictionary = async (locale: LocaleType) =>
+export const getDictionary = async (locale: any) =>
   dictionaries[locale as keyof typeof dictionaries]();

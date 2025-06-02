@@ -29,9 +29,9 @@ export default function HeroSection() {
 
       {/* Content */}
       <div className="relative z-20 flex flex-col items-center justify-center h-full text-white px-4">
-        <h1 className="text-48px700 md:text-80px700 text-center mb-6 leading-[40px] font-bai">
+        <h1 className="text-36px700 md:text-80px700 text-center mb-6 leading-[40px] font-bai">
           {t("title.main")}{" "}  <br />
-          <span className="text-56px700 mr-2 md:text-88px700 baskerville">
+          <span className="text-36px700 mr-2 md:text-88px700 baskerville">
             {t("title.sub1")}
           </span>
           {/* <span className="mr-8 mt-4 font-baskervville text-56px700 md:text-88px700">

@@ -1,4 +1,4 @@
-import { Link } from "@/i18n/routing";
+import { Link } from "@/i18n/navigation";
 import { getLocale, getTranslations } from "next-intl/server";
 
 const DesktopNav = async () => {
@@ -22,7 +22,6 @@ const DesktopNav = async () => {
     { id: 6, label: t("navigation.contact"), path: "/contact" },
   ];
 
-  console.log("locale", locale);
   return (
     <>
       {navLinks.map(({ id, label, path }) => (

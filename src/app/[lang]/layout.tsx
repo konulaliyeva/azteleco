@@ -73,7 +73,7 @@ export default async function MainLayout({
   if (!hasLocale(routing.locales, lang)) {
     notFound();
   }
-  console.log("lang", lang);
+
   return (
     <html lang={lang}>
       <body
@@ -100,19 +100,19 @@ export default async function MainLayout({
             <Header />
             {children}
             <Footer />
-            <ToastContainer
-              position="bottom-right"
-              autoClose={5000}
-              hideProgressBar={false}
-              newestOnTop={false}
-              closeOnClick
-              rtl={false}
-              pauseOnFocusLoss
-              pauseOnHover
-              theme="light"
-            />
           </StoreProvider>
         </NextIntlClientProvider>
+        <ToastContainer
+          position="bottom-right"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          pauseOnHover
+          theme="light"
+        />
       </body>
     </html>
   );

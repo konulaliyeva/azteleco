@@ -1,4 +1,5 @@
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
+import { getLocale } from 'next-intl/server';
 
 type Crumb = {
   id: string | number;
@@ -10,8 +11,9 @@ type BreadcrumbsProps = {
   crumbs: Crumb[];
 };
 
-const Breadcrumbs = ({ crumbs }: BreadcrumbsProps) => {
+const Breadcrumbs = async({ crumbs }: BreadcrumbsProps) => {
   if (!crumbs || crumbs.length === 0) return null;
+const locale = await getLocale();
 
   return (
     <nav aria-label="Breadcrumb">
@@ -24,8 +26,9 @@ const Breadcrumbs = ({ crumbs }: BreadcrumbsProps) => {
               {!isLast ? (
                 <>
                   <Link
-                    href={crumb.href}
-                    className="text-gray-500 hover:text-brand-700 text-sm hover:bg-brand-50 p-2 rounded-[6px] "
+                   locale={locale}
+                    href={crumb.href as typeof Link.prototype.href}
+                    className="text-gray-500 hover:text-brand-700 text-sm hover:bg-brand-50 p-1 md:p-2 rounded-[6px] "
                   >
                     {crumb.title}
                   </Link>

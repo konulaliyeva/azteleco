@@ -64,7 +64,7 @@ const NewsDetailPageContainer = () => {
   };
 
   return (
-    <main className="mx-auto px-40 py-8 mb-36 grid grid-cols-1 md:grid-cols-4 gap-8 fon-inter">
+    <div className="mx-auto px-40 py-8 mb-36 grid grid-cols-1 md:grid-cols-4 gap-8 fon-inter">
       <article className="md:col-span-3">
         <header className="mb-6">
           <h1 className="text-30px600 text-gray-800 leading-tight mb-6">
@@ -227,7 +227,7 @@ const NewsDetailPageContainer = () => {
           ))}
         </div>
       </section>
-    </main>
+    </div>
   );
 };
 

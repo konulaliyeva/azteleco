@@ -1,7 +1,8 @@
 // components/CareerCard.tsx
-import React from "react";
+import React, { useEffect } from "react";
 import { CareerCompanyLogoSVG, LocationSVG, UpArrowSVG } from "@public/vectors";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
+import { useLocale } from "next-intl";
 import slugify from 'slugify';
 type CareerCardProps = {
   title: string;
@@ -26,10 +27,14 @@ const CareerCard: React.FC<CareerCardProps> = ({
   postedAt,
   locationType,
 }) => {
+
+  const locale = useLocale(); 
+
   return (
    <Link
    key={id}
-  href={`/careers/${slugify(title, {lower: true})}-${id}`}
+   locale={locale}
+  href={`/careers/${slugify(title, {lower: true})}-${id}` as typeof Link.prototype.href}
   className="relative group border rounded-xl shadow-sm p-4 hover:shadow-md transition bg-white hover:border-brand-600"
 >
   {/* Location and Category */}
